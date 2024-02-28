@@ -1,0 +1,299 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+.header{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header__part{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header__search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__phone{
+    padding-right: 20px;
+}
+
+.header__search img{
+    width: 15px;
+}
+
+
+.header__navpanel{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__navpanel-element{
+    font-weight: bold;
+    font-size: 20;
+    padding-right: 20px;
+}
+
+.header__subs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__subs img{
+    padding-left: 10px;
+}
+
+.main{
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 40px;
+}
+
+.main__main-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.main__news-cathegory{
+    font-size: 16px;
+    padding-bottom: 13px;
+}
+
+.main__main-news-desc{
+    padding-left: 30px;
+}
+
+.main__main-news-title{
+    font-size: 52px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+
+
+.main__block-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__block-title{
+    width: 100px;
+    line-height: 90px;
+}
+
+.main__gird{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 40px;
+    grid-column-gap: 2em;
+    grid-row-gap: 4em;
+}
+
+.cropped-image{
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+.main__gird span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.grid-element-cathegory{
+    font-size: 16px;
+}
+
+.main__grid-element-date{
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.main__grid-element-title{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.main__banner{
+    padding-top: 4em;
+}
+
+
+.main__slider{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.main__slider-element{
+    padding-right: 20px;
+}
+
+.dark-part{
+    background-color: #373334;
+    display: flex;
+    padding: 4em 0;
+    margin: 4em 0;
+}
+
+.dark-part__content{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.dark-part__title{
+    width: 90px;
+}
+
+.dark-part__schedule{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2em 0;
+}
+
+
+.dark-part__schedule img{
+    width: 45%;
+}
+
+.dark-part__schedule>div{
+    width: 50%;
+}
+
+.dark-part__schedule-element{
+    display: flex;
+    flex-direction: row;
+    padding: 4em 0;
+    width: 100%;
+    align-items: center;
+}
+
+.dark-part__date{
+    padding-right: 20px;
+    font-size: 16px;
+}
+.dark-part__name{
+    font-size: 24px;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.footer__subs{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer__subs span img{
+    width: 23px;
+}
+
+.footer__underscore{
+    padding: 20px 0px 20px 0px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button{
+    background: white;
+    border-radius: 12px;
+    padding: 5px 20px;
+    border: 2px solid;
+    font-size: 16;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: black;
+    color: white;
+}
+
+.button-aligment-end{
+    align-self: self-end;
+}
+
+.title-text{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.block-separator{
+    height: 2px;
+    background-color: black;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.white-line{
+    background-color: white;
+    height: 4px;
+}
+
+.thin-line{
+   height: 1px;
+}
+
+.crimson-text{
+    color: #9F0023;
+}
+
+.white-text{
+    color: white;
+}
+
+.crimson-button{
+    color: #9F0023;
+    border: 2px solid #9F0023;
+}
+
+.crimson-button:hover{
+    background: #9F0023;
+    color: white;
+}
+
+.white-button{
+    color: white;
+    border: 2px solid white;
+    background-color: #373334;
+}
+
+.gray-text{
+    color: #959595;
+}
